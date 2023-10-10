@@ -6,20 +6,106 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="A modern CSS page">
   <meta name="generator" content="Eleventy v1.2">
-  <title>IDMX 11ty Sass Starter</title>
-  <link rel="shortcut icon" href="images/favicon.png" type="image/png">
-  <link rel="shortcut icon" href="images/favicon.svg" type="image/svg+xml">
+  <title>The Road Not Taken</title>
+  <link rel="shortcut icon" href="images/faviconn.png" type="image/png">
   <link rel="stylesheet" href="https://unpkg.com/open-props" />
   <link rel="stylesheet" href="https://unpkg.com/open-props/normalize.min.css" />
   <link rel="stylesheet" href="css/main.css">
 
+  <style>
+    /* CSS to hide h2 headings */
+    .stanza h2 {
+      visibility: hidden;
+    }
+
+    .stanza {
+      margin-bottom: -2%;
+    }
+  </style>
+
 </head>
 
 <body>
-  <h1>IDMX 11ty Sass Starter</h1>
-  <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae sapiente corrupti, maxime eos, nostrum corporis
-    neque pariatur nam rem at mollitia delectus, debitis laboriosam sed quam hic dolore! Obcaecati, necessitatibus.</p>
+
+  <div class="heading">
+
+    <h1>The Road Not Taken</h1>
+    <p class="author"> By: Robert Lee Frost </p>
+
+  </div>
+
+  <section id="image">
+    <div class="Empty Road">
+
+      <img src="images/Road.jpg" alt="Image of empty road" width="200" height="50">
+      <p class="photo author">Photo credit: Aksh Goel</p>
+
+    </div>
+  </section>
+
+
+  <section class="Poem">
+    <div class="stanza 1">
+      <h2>Stanza 1</h2>
+      <p> Two roads diverged in a yellow wood, </p>
+      <p> And sorry I could not travel both</p>
+      <p> And be one traveler, long I stood </p>
+      <p> And looked down one as far as I could </p>
+      <p>To where it bent in the undergrowth;</p>
+
+    </div>
+
+    <div class="stanza 2">
+      <h2>Stanza 2</h2>
+      <p> Then took the other, as just as fair</p>
+      <p> And having perhaps the better claim,</p>
+      <p>Because it was grassy and wanted wear;</p>
+      <p>Though as for that, the passing there</p>
+      <p>Had worn them really about the same,</p>
+    </div>
+
+    <div class="stanza 3">
+      <h2>Stanza 3</h2>
+      <p> And both that morning equally lay</p>
+      <p>In leaves no step had trodden black</p>
+      <p>Oh, I kept the first for another day!</p>
+      <p>Yet knowing how way leads on to way,</p>
+      <p>I doubted if I should ever come back.</p>
+    </div>
+
+    <div class="stanza 4">
+      <h2>Stanza 4</h2>
+      <p>I shall be telling this with a sigh</p>
+      <p>Somewhere ages and ages hence:</p>
+      <p>Two roads diverged in a wood, and I,</p>
+      <p>I took the one less traveled by,</p>
+      <p>And that has made all the difference.</p>
+
+    </div>
+
+
+  </section>
+
+  <footer class="footer">
+    <div class="footer__links">
+      <a href="https://unsplash.com/photos/zR_FhNScyfE" class="footer__link footer__link--photo-credit">
+        Aksh Goel
+      </a>
+      <a href="https://www.public-domain-poetry.com/robert-lee-frost/road-not-taken-1222"
+        class="footer__link footer__link--poetry-source">
+        Robert Lee Frost
+      </a>
+    </div>
+
+    <p class="footer__copyright">
+      &copy; 2023 Sikholiwe Sibisi. All rights reserved.
+    </p>
+
+  </footer>
+
+
   <script src="js/index.js"></script>
+
 </body>
 
 </html>
